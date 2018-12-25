@@ -4,6 +4,7 @@ end
 
 def create_an_array
   ["element 1", "element 2", "element 3", "element 4"]
+  puts create_an_array.inspect
 end
 
 def add_element_to_end_of_array(array, element)
