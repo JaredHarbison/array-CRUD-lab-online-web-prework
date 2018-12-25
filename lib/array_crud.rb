@@ -31,5 +31,5 @@ def retrieve_first_element_from_array(array)
 end
 
 def retrieve_last_element_from_array(array)
-  create_an_array.pop
+  add_element_to_start_of_array.pop
 end
