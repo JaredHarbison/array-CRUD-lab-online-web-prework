@@ -7,8 +7,7 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  add_arrays = create_an_array << "arrays!"
-  puts add_arrays.inspect
+  add_arrays == create_an_array << "arrays!"
 end
 
 def add_element_to_start_of_array(array, element)
