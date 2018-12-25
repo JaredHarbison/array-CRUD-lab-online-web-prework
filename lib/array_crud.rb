@@ -7,18 +7,15 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  add_element_to_end_of_array = create_an_array << "arrays!"
-  puts add_element_to_end_of_array.inspect
+  create_an_array << "arrays!"
 end
 
 def add_element_to_start_of_array(array, element)
-  add_element_to_start_of_array = create_an_array.unshift("wow")
-  puts add_element_to_start_of_array
+  create_an_array.unshift("wow")
 end
 
 def remove_element_from_end_of_array(array)
   add_element_to_end_of_array.pop
-  puts add_element_to_end_of_array.inspect
 end
 
 def remove_element_from_start_of_array(array)
