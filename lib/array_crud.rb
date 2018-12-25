@@ -18,7 +18,7 @@ end
 
 def remove_element_from_end_of_array(array)
   add_element_to_end_of_array.pop
-  puts add_element_to_end_of_array
+  puts add_element_to_end_of_array.inspect
 end
 
 def remove_element_from_start_of_array(array)
